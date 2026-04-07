@@ -11,8 +11,8 @@ apis:
       - url: ' https://camel.apache.org/'
         type: Documentation
     description: >-
-      Camel is an Open Source integration framework that empowers you to quickly
-      and easily integrate various systems consuming or producing data. 
+      Camel is an Open Source integration framework that empowers you to quickly and
+      easily integrate various systems consuming or producing data.
 name: Apache Camel
 tags:
   - Integrations
@@ -23,8 +23,8 @@ created: '2025-06-05'
 modified: '2025-06-10'
 position: Consumer
 description: >-
-  Camel is an Open Source integration framework that empowers you to quickly and
-  easily integrate various systems consuming or producing data. 
+  Camel is an Open Source integration framework that empowers you to quickly and easily
+  integrate various systems consuming or producing data.
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
