@@ -1,0 +1,51 @@
+vocabulary:
+  provider: Apache Camel
+  description: >-
+    Domain taxonomy mapping resources, actions, and personas for Apache Camel
+    integration route development and enterprise integration pattern implementation.
+
+  operational:
+    resources:
+      - name: Route
+        description: A Camel route definition connecting a consumer endpoint to one or more producer endpoints via processors.
+      - name: Endpoint
+        description: A named channel for sending or receiving messages represented by a URI string.
+      - name: Component
+        description: A pluggable Camel connector providing endpoint factories for a specific technology or protocol.
+      - name: Exchange
+        description: The message exchange object holding in/out messages and metadata as it flows through a route.
+      - name: Processor
+        description: A processing step in a Camel route that transforms, filters, or routes exchanges.
+      - name: CamelContext
+        description: The runtime container holding all routes, components, and configuration for a Camel application.
+      - name: DataFormat
+        description: A marshalling/unmarshalling strategy for converting between Java objects and data formats.
+      - name: RouteTemplate
+        description: A parameterized route blueprint for creating reusable integration patterns.
+
+    actions:
+      - name: Route
+        description: Direct message exchanges from source endpoints to destination endpoints.
+      - name: Transform
+        description: Convert message bodies or headers using processors or data format converters.
+      - name: Filter
+        description: Conditionally discard exchanges based on predicates applied to message content.
+      - name: Aggregate
+        description: Combine multiple exchanges into a single exchange using an aggregation strategy.
+      - name: Split
+        description: Break a single exchange into multiple exchanges for parallel or sequential processing.
+      - name: Enrich
+        description: Augment an exchange with additional data from an external source endpoint.
+      - name: Deploy
+        description: Deploy a Camel integration as a Kubernetes-native workload via Camel K operator.
+
+    personas:
+      - name: Integration Developer
+        description: Developer defining Camel routes and EIP patterns to connect enterprise systems.
+      - name: Platform Engineer
+        description: Engineer deploying and managing Camel K integrations on Kubernetes clusters.
+
+  crossReference:
+    documentation: https://camel.apache.org/docs/
+    javadoc: https://camel.apache.org/maven/current/camel-api/apidocs/
+    components: https://camel.apache.org/components/next/index.html
