@@ -92,7 +92,7 @@ common:
     url: https://github.com/apache/camel/releases
   - type: FAQ
     url: https://camel.apache.org/manual/faq/index.html
-  - type: SDK
+  - type: SDKs
     url: https://search.maven.org/artifact/org.apache.camel/camel-core
     title: Java SDK (Maven)
   - type: Vocabulary
