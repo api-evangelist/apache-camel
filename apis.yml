@@ -74,6 +74,10 @@ apis:
       - type: Documentation
         url: https://camel.apache.org/camel-quarkus/next/index.html
 common:
+  - type: VulnerabilityDisclosure
+    url: security/apache-camel-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/apache-camel-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/apache
   - type: GitHubRepository
@@ -149,6 +153,8 @@ common:
         description: Camel Spring Boot starter for integrating Camel into Spring Boot applications.
       - name: Quarkus
         description: Camel Quarkus extensions for native compilation and serverless deployment of integration routes.
+  - url: https://camel.apache.org/blog/index.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
