@@ -86,6 +86,15 @@ apis:
       - type: Documentation
         url: https://camel.apache.org/camel-quarkus/next/index.html
 common:
+  - type: SecurityPolicy
+    url: https://github.com/apache/camel/blob/main/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/apache/camel/blob/main/CONTRIBUTING.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/apache/camel/blob/main/LICENSE
   - type: VulnerabilityDisclosure
     url: security/apache-camel-vulnerability-disclosure.yml
   - type: DomainSecurity
