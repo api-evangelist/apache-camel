@@ -106,6 +106,8 @@ apis:
       - type: Documentation
         url: https://camel.apache.org/camel-quarkus/next/index.html
 common:
+  - type: Website
+    url: https://www.apache.org/
   - type: SecurityPolicy
     url: https://github.com/apache/camel/blob/main/SECURITY.md
   - type: CodeOfConduct
