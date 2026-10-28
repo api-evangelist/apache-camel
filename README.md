@@ -1,4 +1,4 @@
-# Apache Camel (apache-camel)
+# Apache Camel
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,131 +66,116 @@
 
 Apache Camel is an open-source integration framework developed by the Apache Software Foundation that implements Enterprise Integration Patterns (EIPs) for connecting systems, services, and data. It provides a domain-specific language (DSL) in Java, XML, YAML, and Kotlin for defining routes between components. Camel ships with over 300 components for connecting to messaging systems, databases, cloud services, APIs, and file formats. Camel K extends this with a Kubernetes-native integration runtime and operator with a REST management API.
 
-**URL:** [https://camel.apache.org/](https://camel.apache.org/)
+**Areas:** Apache · Enterprise Integration · Integration · Messaging · Open Source · Routing
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Apache Camel on APIs.io
 
-## Tags
+Everything profiled for Apache Camel is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache-camel/](https://apis.io/providers/apache-camel/)** — or go straight to one of the APIs or properties below.
 
- - Apache, Enterprise Integration, Integration, Messaging, Open Source, Routing
+### APIs (4)
 
-## Timestamps
+- [Apache Camel Java DSL API](https://apis.io/apis/apache-camel/apache-camel-java-dsl/) — The Apache Camel Java DSL provides a fluent API for defining integration routes using Enterprise Integration Patterns. Developers define RouteBuilder…
+- [Apache Camel REST DSL API](https://apis.io/apis/apache-camel/apache-camel-rest-dsl/) — The Apache Camel REST DSL provides a concise syntax for exposing and consuming RESTful services within Camel routes. It supports both REST service…
+- [Apache Camel K Operator API](https://apis.io/apis/apache-camel/apache-camel-k-operator-api/) — The Apache Camel K Operator exposes a Kubernetes Custom Resource API for deploying and managing Camel integrations as cloud-native serverless workloads on…
+- [Apache Camel Quarkus API](https://apis.io/apis/apache-camel/apache-camel-quarkus-api/) — Apache Camel Quarkus provides native compilation and fast startup of Camel routes on Quarkus, enabling serverless and microservice deployments with Camel's…
 
-- **Created:** 2025-06-05
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Apache Camel Java DSL API
-The Apache Camel Java DSL provides a fluent API for defining integration routes using Enterprise Integration Patterns. Developers define RouteBuilder subclasses to connect Camel components via endpoints, processors, and transformers.
+#### Vocabulary (1)
 
-**Human URL:** [https://camel.apache.org/manual/java-dsl.html](https://camel.apache.org/manual/java-dsl.html)
+The provider's domain terms, defined.
 
-#### Tags
+- [Apache Camel Vocabulary](https://apis.io/vocabularies/apache-camel/apache-camel-vocabulary/)
 
- - DSL, Integration, Java, Routing
+#### Security (2)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Documentation](https://camel.apache.org/manual/java-dsl.html)
-- [APIReference](https://camel.apache.org/manual/camelcontext.html)
-- [GettingStarted](https://camel.apache.org/manual/getting-started.html)
+- [Apache Camel Domain Security](https://apis.io/security/apache-camel/apache-camel-domain-security/)
+- [Apache Camel Vulnerability Disclosure](https://apis.io/security/apache-camel/apache-camel-vulnerability-disclosure/)
 
-### Apache Camel REST DSL API
-The Apache Camel REST DSL provides a concise syntax for exposing and consuming RESTful services within Camel routes. It supports both REST service definition and REST proxy/consumer patterns.
+#### Plans and pricing (1)
 
-**Human URL:** [https://camel.apache.org/manual/rest-dsl.html](https://camel.apache.org/manual/rest-dsl.html)
+Published plans, tiers and prices.
 
-#### Tags
+- [Apache Camel Plans Pricing](https://apis.io/plans/apache-camel/apache-camel-plans-pricing/)
 
- - DSL, REST, Routing
+#### Rate limits (1)
 
-#### Properties
+Published request limits.
 
-- [Documentation](https://camel.apache.org/manual/rest-dsl.html)
+- [Apache Camel Rate Limits](https://apis.io/rate-limits/apache-camel/apache-camel-rate-limits/)
 
-### Apache Camel K Operator API
-The Apache Camel K Operator exposes a Kubernetes Custom Resource API for deploying and managing Camel integrations as cloud-native serverless workloads on Kubernetes and OpenShift.
+#### FinOps (1)
 
-**Human URL:** [https://camel.apache.org/camel-k/next/apis/operator/](https://camel.apache.org/camel-k/next/apis/operator/)
+What the API costs to run, by operation.
 
-#### Tags
+- [Apache Camel Finops](https://apis.io/finops/apache-camel/apache-camel-finops/)
 
- - Kubernetes, Operator, Serverless
+## Where to find this API
 
-#### Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Documentation](https://camel.apache.org/camel-k/next/apis/operator/)
-- [GettingStarted](https://camel.apache.org/camel-k/next/installation/installation.html)
-
-### Apache Camel Quarkus API
-Apache Camel Quarkus provides native compilation and fast startup of Camel routes on Quarkus, enabling serverless and microservice deployments with Camel's integration components.
-
-**Human URL:** [https://camel.apache.org/camel-quarkus/next/index.html](https://camel.apache.org/camel-quarkus/next/index.html)
-
-#### Tags
-
- - Quarkus, Serverless
-
-#### Properties
-
-- [Documentation](https://camel.apache.org/camel-quarkus/next/index.html)
-
-## Common Properties
-
-- [GitHubOrganization](https://github.com/apache)
-- [GitHubRepository](https://github.com/apache/camel)
+- [Website](https://www.apache.org/)
 - [Documentation](https://camel.apache.org/docs/)
-- [GettingStarted](https://camel.apache.org/manual/getting-started.html)
+- [Getting started](https://camel.apache.org/manual/getting-started.html)
 - [Support](https://camel.apache.org/community/support/)
-- [TermsOfService](https://www.apache.org/licenses/)
-- [ChangeLog](https://github.com/apache/camel/releases)
-- [Java SDK (Maven)](https://search.maven.org/artifact/org.apache.camel/camel-core)
+- [Changelog](https://github.com/apache/camel/releases)
+- [Blog](https://camel.apache.org/blog/index.xml)
+- [Terms of service](https://www.apache.org/licenses/)
+- [GitHub](https://github.com/apache)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Enterprise Integration Patterns | Implementation of 65+ EIPs including splitter, aggregator, content-based router, message translator, and dead letter channel. |
-| 300+ Components | Pre-built connectors for messaging (Kafka, ActiveMQ, RabbitMQ), cloud (AWS, Azure, GCP), databases, REST, SOAP, and file formats. |
-| Multi-DSL Support | Define routes in Java, XML, YAML, Kotlin, or Groovy DSL with full feature parity across languages. |
-| REST DSL | Concise DSL for exposing and consuming RESTful services with OpenAPI/Swagger integration. |
-| Camel K Kubernetes Operator | Deploy Camel integrations as cloud-native serverless workloads on Kubernetes and OpenShift. |
-| Camel Quarkus | Native compilation of Camel routes with Quarkus for fast startup and low memory serverless deployments. |
-| Data Formats | Built-in support for 50+ data format conversions including JSON, XML, CSV, Avro, Protobuf, and EDI. |
-| Route Templates | Parameterized route templates for building reusable integration patterns. |
-| Saga Pattern | Distributed transaction support using the saga pattern with compensating actions. |
-| Observability | Built-in metrics, tracing (OpenTelemetry), and health check endpoints for Camel routes. |
+**Kin Score 30.8** — thin · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 13.6 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 18.4 |
 
-| Name | Description |
-|------|-------------|
-| System Integration | Connect disparate enterprise systems including ERP, CRM, databases, and cloud services using EIP patterns. |
-| API Gateway | Build lightweight API gateways for routing, transformation, and protocol mediation using the REST DSL. |
-| Event-Driven Architecture | Implement event-driven integrations with Kafka, ActiveMQ, and other messaging platforms. |
-| Data Pipeline | Build ETL pipelines transforming and routing data between storage systems and data formats. |
-| Microservice Integration | Wire microservices together using Camel K serverless integrations on Kubernetes. |
-| Legacy Modernization | Bridge legacy SOAP, FTP, and EDI systems with modern REST and cloud-native services. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Apache Kafka | Camel Kafka component for producing and consuming Kafka topic messages in integration routes. |
-| Apache ActiveMQ | Camel ActiveMQ component for JMS messaging with Apache ActiveMQ Classic and Artemis. |
-| AWS Services | Camel AWS components for S3, SQS, SNS, DynamoDB, Lambda, and other AWS services. |
-| Kubernetes | Camel K Operator for deploying integrations as native Kubernetes Custom Resources. |
-| OpenAPI | Camel REST DSL generates OpenAPI specifications and can create routes from OpenAPI contracts. |
-| Spring Boot | Camel Spring Boot starter for integrating Camel into Spring Boot applications. |
-| Quarkus | Camel Quarkus extensions for native compilation and serverless deployment of integration routes. |
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
 
-## Vocabulary
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache-camel/](https://apis.io/providers/apache-camel/).
 
-- [Apache Camel Vocabulary](vocabulary/apache-camel-vocabulary.yaml) — Domain taxonomy mapping 8 resources, 7 actions, and 2 personas for integration route development
+## How this profile is made
 
-## Maintainers
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-**FN:** Kin Lane
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache Camel: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-**Email:** info@apievangelist.com
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache-camel/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
